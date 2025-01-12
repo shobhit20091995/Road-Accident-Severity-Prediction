@@ -61,7 +61,7 @@ To run this project locally, follow these steps:
 git clone https://github.com/YOUR_GITHUB_USERNAME/Road-Accident-Severity-Prediction.git
 cd Road-Accident-Severity-Prediction
 
-### **🎯 Model Training & Evaluation
+## 🎯 Model Training & Evaluation
 🔹 Train-Test Split
 
 Train Set (75%) → Used to train the model
@@ -71,7 +71,7 @@ Test Set (10%) → Used to evaluate final model performance
 
 Random Forest Classifier (100 trees, default hyperparameters)
 
-### **📊 Feature Importance Analysis
+## 📊 Feature Importance Analysis
 The model identifies which factors impact accident severity the most.
 
 Top Contributing Features:
@@ -82,7 +82,7 @@ Top Contributing Features:
 
 📌 Understanding these factors helps improve road safety strategies.
 
-### **🚀 Future Improvements
+## 🚀 Future Improvements
 ✅ Improve Model Performance
 
 Try XGBoost, LightGBM, and Neural Networks
