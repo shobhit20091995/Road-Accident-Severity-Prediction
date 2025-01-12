@@ -52,6 +52,27 @@ The dataset contains **road accident records** from across the US with features 
 
 ---
 
+## 📖 **Approach & Assumptions**
+
+### **🛠 Approach**
+1. **Data Cleaning**: Handled missing values by removing highly null columns and filling others using median/mode imputation.  
+2. **Feature Engineering**: Extracted time-based features and encoded categorical variables using **Label Encoding**.  
+3. **Data Splitting**: The dataset was split into **train (75%)**, **validation (15%)**, and **test (10%)** sets.  
+4. **Model Training**:  
+   - Used **RandomForestClassifier** with default hyperparameters.  
+   - Trained the model on **training data** and evaluated on **validation data**.  
+5. **Evaluation**:  
+   - Used **Accuracy, Classification Report, and Confusion Matrix** for performance analysis.  
+6. **Feature Importance Analysis**:  
+   - Identified key factors affecting accident severity.
+
+### **🧐 Assumptions**
+- The dataset is assumed to be **representative of real-world accident patterns**.  
+- Missing values were handled by **dropping columns with excessive missing data** and **filling missing values appropriately**.  
+- The **severity of an accident is influenced by weather, time, and road conditions**, which were prioritized in feature selection.
+
+---
+
 ## 📦 **Installation & Setup** 
 
 To run this project locally, follow these steps:
