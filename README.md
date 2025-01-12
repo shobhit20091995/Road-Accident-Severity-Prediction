@@ -52,38 +52,11 @@ The dataset contains **road accident records** from across the US with features 
 
 ---
 
-## 📦 Installation & Setup 
+## 📦 **Installation & Setup** 
 
 To run this project locally, follow these steps:
 
-### **🔹  Clone the Repository**
+### **🔹 Clone the Repository**
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/Road-Accident-Severity-Prediction.git
 cd Road-Accident-Severity-Prediction
-
-## 🎯 Model Training & Evaluation
-🔹 Train-Test Split
-
-Train Set (75%) → Used to train the model
-Validation Set (15%) → Used for hyperparameter tuning
-Test Set (10%) → Used to evaluate final model performance
-🔹 Model Used
-
-Random Forest Classifier (100 trees, default hyperparameters)
-
-##  ** 📊 Feature Importance Analysis **
-The model identifies which factors impact accident severity the most.
-
-Top Contributing Features:
-1️⃣ Weather Condition
-2️⃣ Time of Day (Hour)
-3️⃣ Traffic Signals & Junctions
-4️⃣ Visibility & Wind Speed
-
-📌 Understanding these factors helps improve road safety strategies.
-
-## 🚀 Future Improvements
-✅ Improve Model Performance
-
-Try XGBoost, LightGBM, and Neural Networks
-Hyperparameter tuning with Grid Search
