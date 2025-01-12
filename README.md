@@ -52,7 +52,7 @@ The dataset contains **road accident records** from across the US with features 
 
 ---
 
-## 📦 Installation & Setup
+## 📦 Installation & Setup 
 
 To run this project locally, follow these steps:
 
@@ -71,7 +71,7 @@ Test Set (10%) → Used to evaluate final model performance
 
 Random Forest Classifier (100 trees, default hyperparameters)
 
-## 📊 Feature Importance Analysis
+##  ** 📊 Feature Importance Analysis **
 The model identifies which factors impact accident severity the most.
 
 Top Contributing Features:
